@@ -14,6 +14,8 @@ const Feed = () => {
       >
         <Sidebar />
         <Typography
+          className="copyright"
+          variant="body2"
           sx={{ mt: 1.5, color: "#fff", display: { md: "flex", xs: "none" } }}
         >
           Copyright &copy; 2024 Youtube-v2.0
